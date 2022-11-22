@@ -1,12 +1,14 @@
 
 public class Vehiculo {
-
-	public static void main(String[] args) {
-		arrancar();
+	public Vehiculo() {
+		System.out.println("Brrrrrrr.....acaba de arrancar!");
 
 	}
-	public static void arrancar() {
-		System.out.println("Brrrrrr....acaba de arrancar!");
+
+	public static void main(String[] args) {
+
+		Vehiculo miMoto = new Vehiculo();
+
 	}
 
 }
